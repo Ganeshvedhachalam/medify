@@ -1,6 +1,7 @@
 # medify
 
-A comprehensive hospital management website featuring functionalities such as searching for hospitals, viewing specializations, checking offers, and more. This project is built using React and Material-UI.
+The objective of this project is to build a React-based web application that allows users to find medical centers in a specific state and city across the USA and book appointments. 
+
 
 ## Table of Contents
 
@@ -58,13 +59,26 @@ FAQs: Frequently asked questions.
 
 ## Features
 
-Responsive Design: Adapts to various screen sizes.
-Search Functionality: Allows users to search for hospitals.
-Specialization Information: Detailed information about medical specializations.
-Offers and Discounts: Displays current offers available.
-Patient Care Information: Resources and information on patient care.
-News Updates: Latest news related to hospitals and healthcare.
-Testimonials: Stories and testimonials from patients.
+Landing Page:
+A top navigation bar with access to platform sections such as Find Doctors, Hospitals, Medicines, and more.
+A search section for users to select a state and city, leading to a list of available medical centers in the chosen area.
+Both State and City should have a dropdown where the options will be fetched from an api which is provided in the problem description.
+And other sections as provided in the figma design.
+
+Search Results Page:
+A listings view showing available medical centers in the selected location with the option to book appointments.
+
+Booking Interface:
+A detailed booking section for users to select a medical center, with a calendar-like interface to choose an appointment date.
+The ability to book an appointment within a time frame from today up to one week in advance.
+A selection of available time slots for the selected day.
+
+My Bookings Page:
+A personalized page displaying all user bookings, including details such as the medical center's name, appointment date, and time.
+
+Responsive Design:
+Ensure that the application is fully responsive and adheres to the design standards presented in the Figma screenshots.
+
 
 ## Contributing
 Contributions are welcome! To contribute:
